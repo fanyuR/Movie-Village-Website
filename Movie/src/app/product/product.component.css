@@ -18,3 +18,7 @@
   font-family: 'Bree Serif', serif;
   font-size: 18px;
 }
+
+.card{
+  min-height: 650px;
+}

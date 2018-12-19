@@ -28,15 +28,15 @@ var Comment = /** @class */ (function () {
 }());
 exports.Comment = Comment;
 var products = [
-    new Product(1, "Jurassic World ", 1.99, 3.5, "Universal Pictures", ["Action", "Adventure"], "http://localhost:8000/Jurassic World.jpg"),
-    new Product(2, "Ant-Man", 3.99, 4.0, "Marvel Studios", ["Adventure", "Comedy"], "http://localhost:8000/Ant-Man.jpg"),
-    new Product(3, "Mowgli", 1.99, 4.5, "Warner Bros.", ["Action", "Adventure", "Fantasy"], "http://localhost:8000/Mowgli.jpg"),
-    new Product(4, "A Star Is Born ", 2.99, 3.5, "Warner Bros.", ["Music", "Romance"], "http://localhost:8000/star.jpg"),
-    new Product(5, "Aquaman", 4.99, 5.0, " DC Entertainment", ["Action", "Adventure"], "http://localhost:8000/aquaman.jpg"),
-    new Product(6, "Venom", 1.99, 4.0, "Marvel Entertainment", ["Action"], "http://localhost:8000/venom.jpg"),
-    new Product(7, "Ralph Breaks the Internet", 2.99, 4.5, "Walt Disney Animation Studios", ["Animation", "Comedy"], "http://localhost:8000/Ralph.jpg"),
-    new Product(8, "Christopher Robin", 4.99, 2.5, "Walt Disney Pictures", ["Animation", "Adventure", "Comedy"], "http://localhost:8000/Christopher.jpg"),
-    new Product(9, "Black Panther", 1.99, 3.5, "Walt Disney Studios", ["Action", "Adventure"], "http://localhost:8000/Black.jpg"),
+    new Product(1, "Jurassic World ", 14.99, 3.5, "Universal Pictures", ["Action", "Adventure"], "http://localhost:8000/Jurassic World.jpg"),
+    new Product(2, "Ant-Man", 16.99, 4.0, "Marvel Studios", ["Adventure", "Comedy"], "http://localhost:8000/Ant-Man.jpg"),
+    new Product(3, "Mowgli", 24.99, 4.5, "Warner Bros.", ["Action", "Adventure", "Fantasy"], "http://localhost:8000/Mowgli.jpg"),
+    new Product(4, "A Star Is Born ", 12.99, 3.5, "Warner Bros.", ["Music", "Romance"], "http://localhost:8000/star.jpg"),
+    new Product(5, "Aquaman", 18.99, 5.0, " DC Entertainment", ["Action", "Adventure"], "http://localhost:8000/aquaman.jpg"),
+    new Product(6, "Venom", 14.99, 4.0, "Marvel Entertainment", ["Action"], "http://localhost:8000/venom.jpg"),
+    new Product(7, "Ralph", 12.99, 4.5, "Walt Disney Animation Studios", ["Animation", "Comedy"], "http://localhost:8000/Ralph.jpg"),
+    new Product(8, "Christopher Robin", 10.99, 2.5, "Walt Disney Pictures", ["Animation", "Adventure", "Comedy"], "http://localhost:8000/Christopher.jpg"),
+    new Product(9, "Black Panther", 10.99, 3.5, "Walt Disney Studios", ["Action", "Adventure"], "http://localhost:8000/Black.jpg"),
 ];
 var comments = [
     new Comment(1, 1, '2018-10-2 12:15:35', 'Fiona', 4.5, 'Excellent'),

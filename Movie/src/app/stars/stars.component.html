@@ -1,5 +1,5 @@
-<p class="ml-3">
-  <i *ngFor="let star of stars; let i=index;" [ngClass]="{'far':star,'fas':!star,'fa-star':true}" (click)="clickStar(i)"></i>&nbsp;
+<p class="">
+  <i *ngFor="let star of stars; let i=index;" class="staricon" [ngClass]="{'far':star,'fas':!star,'fa-star':true}" (click)="clickStar(i)"></i>&nbsp;
   <span class="star">{{rating | number: '1.0-2'}}&nbsp;Star</span>
 </p>
 

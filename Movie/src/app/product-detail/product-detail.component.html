@@ -1,15 +1,17 @@
 <div class="card">
   <img class="card-img-top" [src]="product?.image"/>
-  <div>
-      <h4 class="float-right">{{product?.price}}</h4>
-      <h4>{{product?.title}}</h4>
-    <p>{{product?.desc}}</p>
-  </div>
-  <div>
-    <p class="float-right">{{comments?.length}}</p>
-    <p>
-      <app-stars [rating]="product?.rating"></app-stars>
-    </p>
+    <div style="width: 90%" class="mx-auto mt-3">
+     <div class="card-top" >
+        <h4 class="float-right">{{product?.price}}</h4>
+        <h4>{{product?.title}}</h4>
+        <p class="card-des">{{product?.desc}}</p>
+    </div>
+    <div>
+      <p class="float-right card-des">{{comments?.length}} Reviews</p>
+      <p>
+        <app-stars  [rating]="product?.rating"></app-stars>
+      </p>
+    </div>
   </div>
 </div>
 
