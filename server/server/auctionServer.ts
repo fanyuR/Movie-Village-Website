@@ -27,7 +27,7 @@ export class Comment {
 
 const products: Product[] = [
     new Product(1,"Jurassic World ", 14.99, 3.5, "Universal Pictures",["Action", "Adventure"],"http://localhost:8000/Jurassic World.jpg" ),
-    new Product(2,"Ant-Man", 16.99, 4.0, "Marvel Studios",["Adventure", "Comedy" ], "http://localhost:8000/Ant-Man.jpg" ),
+    new Product(2,"Ant-Man", 16.99, 5.0, "Marvel Studios",["Adventure", "Comedy" ], "http://localhost:8000/Ant-Man.jpg" ),
     new Product(3,"Mowgli", 24.99, 4.5, "Warner Bros.",["Action", "Adventure", "Fantasy"], "http://localhost:8000/Mowgli.jpg" ),
     new Product(4,"A Star Is Born ", 12.99, 3.5, "Warner Bros.",[ "Music", "Romance"], "http://localhost:8000/star.jpg" ),
     new Product(5,"Aquaman", 18.99, 5.0, " DC Entertainment",["Action", "Adventure"],"http://localhost:8000/aquaman.jpg" ),
