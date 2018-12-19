@@ -1,0 +1,19 @@
+
+
+<div *ngFor="let product of products | async" class="col-md-4 d-inline-block mt-5">
+<div class="card"  >
+  <img class="card-img-top" [src]="product.image"/>
+  <div class="card-header bg-transparent">
+    <h4><a [routerLink]="['/product', product.id]" class="title">{{product.title}}</a></h4>
+  </div>
+  <div class="card-body">
+    <div>
+    <p class="float-right price align-bottom">{{product.price}} CAD</p>
+    <p class="description align-middle">{{product.desc}}</p>
+    </div>
+  </div>
+  <div>
+    <app-stars [rating] = "product.rating"></app-stars>
+  </div>
+</div>
+</div>

@@ -1,0 +1,17 @@
+.slide-image{
+  width: 100%;
+}
+.carousel-indicators li {
+  border-radius: 12px;
+  width: 12px;
+  height: 12px;
+  background-color: #D6DCDE;
+}
+
+.carousel-indicators .active {
+  background-color: #FBFEFE;
+  max-width: 12px;
+  margin: 0px;
+  height: 12px;
+}
+

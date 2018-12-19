@@ -1,0 +1,40 @@
+<div class="card">
+  <img class="card-img-top" [src]="product?.image"/>
+  <div>
+      <h4 class="float-right">{{product?.price}}</h4>
+      <h4>{{product?.title}}</h4>
+    <p>{{product?.desc}}</p>
+  </div>
+  <div>
+    <p class="float-right">{{comments?.length}}</p>
+    <p>
+      <app-stars [rating]="product?.rating"></app-stars>
+    </p>
+  </div>
+</div>
+
+<div class="card bg-light mt-2">
+  <div>
+    <button class="btn" (click)="isCommentHidden = !isCommentHidden">Add your comment</button>
+  </div>
+
+  <div [hidden] = isCommentHidden>
+    <div><app-stars [(rating)]="newRating" [readonly]="false"></app-stars></div>
+    <div>
+      <textarea [(ngModel)]="newComment"></textarea>
+    </div>
+    <div>
+      <button class="btn" (click)="addComment()">Submit</button>
+    </div>
+  </div>
+
+  <div class="card-header" *ngFor="let comment of comments">
+    <hr/>
+    <div class="col-sm-12">
+      <app-stars [rating]="comment.rating"></app-stars>
+      <span>{{comment.user}}</span>
+      <span class="float-right">{{comment.timestamp | date: "medium"}} </span>
+      <p>{{comment.content}}</p>
+    </div>
+  </div>
+</div>
