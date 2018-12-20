@@ -15,3 +15,22 @@ Find your movies using the filter
 - User can search movies by movies category which can be selected in a dropdown  
 
 ![](https://github.com/fanyuR/Movie-Village-Website/blob/master/Img/Search.gif?raw=true)
+
+### Detail Page
+Add new comments with ratings and read others' reviews
+
+![](https://github.com/fanyuR/Movie-Village-Website/blob/master/Img/detail%20page.gif?raw=true)
+
+## Version  
+`v 1.2`  
+- Optimize layouts of main page and detail pages  
+- Update new data on server
+
+`v 1.1`  
+- Set up backend using Node.js and input mock data  
+- Use HttpClient to communicate with backend services 
+
+## TODO
+- [ ] Add animation effets to the searchbar
+- [ ] Add login system which enables user to create thier accounts
+- [ ] Build up a shopping page and add related fuctions
