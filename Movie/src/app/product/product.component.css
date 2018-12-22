@@ -16,5 +16,16 @@
 }
 
 .card{
-  min-height: 650px;
+  min-height: 571px;
+}
+
+.card-body{
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.card-header{
+  margin-bottom: 0;
+  padding-bottom: 5px;
+  padding-top: 8px;
 }
