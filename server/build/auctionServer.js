@@ -35,7 +35,7 @@ var products = [
     new Product(4, "A Star Is Born ", 12.99, 3.5, "Warner Bros.", ["Music", "Romance"], "http://localhost:8000/star.jpg", "http://localhost:8000/imgdetail/a-star-is-born.jpg"),
     new Product(5, "Aquaman", 18.99, 5.0, " DC Entertainment", ["Action", "Adventure"], "http://localhost:8000/aquaman.jpg", "http://localhost:8000/imgdetail/aquaman2.jpg"),
     new Product(6, "Venom", 14.99, 4.0, "Marvel Entertainment", ["Action"], "http://localhost:8000/venom.jpg", "http://localhost:8000/imgdetail/Venom.jpg"),
-    new Product(7, "Ralph", 12.99, 3.5, "Walt Disney Animation Studios", ["Animation", "Comedy"], "http://localhost:8000/Ralph.jpg", "http://localhost:8000/imgdetail/Ralph.jpg"),
+    new Product(7, "Ralph", 12.99, 3.5, "Walt Disney Animation", ["Animation", "Comedy"], "http://localhost:8000/Ralph.jpg", "http://localhost:8000/imgdetail/Ralph.jpg"),
     new Product(8, "Christopher Robin", 10.99, 4.0, "Walt Disney Pictures", ["Animation", "Adventure", "Comedy"], "http://localhost:8000/Christopher.jpg", "http://localhost:8000/imgdetail/ChristopherRobin.jpg"),
     new Product(9, "Black Panther", 10.99, 3.5, "Walt Disney Studios", ["Action", "Adventure"], "http://localhost:8000/Black.jpg", "http://localhost:8000/imgdetail/Black Panther.jpg"),
 ];
