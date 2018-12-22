@@ -6,6 +6,7 @@ The client side of this single page application is developed using `Angular 6` a
  
 ## Sreenshots 
 ### Main page of the website  
+
 ![](https://github.com/fanyuR/Movie-Village-Website/blob/master/Img/Main%20page.gif)
 
 ### Search Form
@@ -19,7 +20,7 @@ Find your movies using the filter
 ### Detail Page
 Add new comments with ratings and read others' reviews
 
-![](https://github.com/fanyuR/Movie-Village-Website/blob/master/Img/detail%20page.gif?raw=true)
+![](https://github.com/fanyuR/Movie-Village-Website/blob/master/Img/detial.gif?raw=true)
 
 ## Version  
 `v 1.2`  
